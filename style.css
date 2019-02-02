@@ -3,3 +3,21 @@ h1 {
   color: Aquamarine;
   font-family: monospace;
 }
+body{
+  background: grey;
+}
+.syncButton{
+  height: 200px;
+  width: 200px;
+  border: 2px solid blue;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.syncButton:hover {
+  background: yellow;
+}
+.pushed {
+  background: yellow;
+}
