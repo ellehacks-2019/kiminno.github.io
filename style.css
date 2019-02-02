@@ -32,6 +32,30 @@ h1 {
   color: PaleVioletRed;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: salmon;
+  padding: 20px;
+}
 .syncButton{
   height: 200px;
   width: 200px;
