@@ -2,23 +2,27 @@
   <head>
     <title>My Restful</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
   </head>
 
   <body>
     <div class="header">
-    <h1>My Restful</h1>
+    <h1>myRestful</h1>
     <p>A small step towards a healthy life.</p>
   </div>
 
-    <div class="navbar">
-  <a href="https://google.ca">My Sleep History</a>
-  <a href="#">About myRestful</a>
-  <button onclick="myAccount()">My Account</button>
-</div>
-
-
-
-    <script type="text/javascript"> src="script.js"></script>
+  <div class="topnav">
+    <a class="active" href="my_restful.html">Home</a>
+    <a href="https://google.ca">About myRestful</a>
+    <a href="#contact">Contact Information</a>
+    <div class="login-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Username" name="username">
+        <input type="text" placeholder="Password" name="psw">
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
 
     <div class="row">
       <div class="side">
@@ -29,7 +33,7 @@
 
       </div>
       <div class="main">
-        <h2>Your Sleep History</h2>
+        <h2 style="color:white;">Your Sleep History</h2>
         <div class="fakeimg" style="height:150px;">Image</div>
         <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
         <br>
@@ -37,7 +41,8 @@
       </div>
     </div>
 
-    <h4> Symptons of Sleep Deprivation </h4>
+    <h2> Symptons of Sleep Deprivation </h2>
+    <p>Check off those that apply to you.</p>
     <label><input type="checkbox" name="checkbox" value="value">Yawning</label>
     <br>
     <label><input type="checkbox" name="checkbox" value="value">Moodiness</label>
@@ -59,13 +64,13 @@
     <label><input type="checkbox" name="checkbox" value="value">Increased appetite and carbohydrate cravings</label>
     <br>
     <label><input type="checkbox" name="checkbox" value="value">Reduced sex drive</label>
-    <br>
 
-    <div class="syncButton">Sync</div>
+    <div class="syncButton"></div>
     <div class="checkList"></div>
     <div class="graph"></div>
-    <div class="submitButton">Submit</div>
+    <div class="signUpButton"></div>
     <div class="logInButton"></div>
+
 
   </body>
 
