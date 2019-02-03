@@ -16,23 +16,26 @@ h1 {
 h2{
   font-size: 30px;
   font-family: Helvetica, sans-serif;
+  margin-bottom: 10px;
   color: rgb(23, 51, 79);
 }
 
 label{
   font-family: Helvetica, sans-serif;
-  color: rgb(252, 241, 207)
+  color: #17334F;
+}
 
+p{
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
 }
 * {box-sizing: border-box;}
 
-/* Style the navbar */
 .topnav {
   overflow: hidden;
   background-color: rgb(177, 217, 231);
 }
 
-/* Navbar links */
 .topnav a {
   float: left;
   display: block;
@@ -42,35 +45,32 @@ label{
   text-decoration: none;
   font-size: 17px;
   font-family: Helvetica, sans-serif;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-/* Navbar links on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Active/current link */
 .topnav a.active {
   background-color: RoyalBlue;
   color: white;
 }
 
-/* Style the input container */
 .topnav .login-container {
   float: right;
 }
 
-/* Style the input field inside the navbar */
 .topnav input[type=text] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
   border: none;
-  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+  width: 150px;
 }
 
-/* Style the button inside the input container */
 .topnav .login-container button {
   float: right;
   padding: 6px;
@@ -86,7 +86,6 @@ label{
   background: #ccc;
 }
 
-/* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav .login-container {
     float: none;
@@ -125,37 +124,51 @@ label{
 .main {
   -ms-flex: 70%;
   flex: 70%;
-  background-color:  RoyalBlue;
+  background-color:  #DBB3B1;
   padding: 20px;
 }
 .syncButton{
-  height: 40px;
-  width: 100px;
-  border:2px solid purple;
-  margin: 0 auto;
+  height: 30px;
+  width: 80px;
+  border:2px solid pink;
+  color: white;
+  margin-top: 5px;
   margin-bottom: 10px;
   transition: 0.5s;
   text-align: center;
+
 }
 
 .syncButton:hover {
-  background: lightblue;
+  background: lavender;
 }
 .pushed {
   background: CornflowerBlue;
 }
 
 .submitButton {
-  height: 40px;
-  width: 100px;
-  border:2px solid purple;
-  margin: 0 auto;
+  height: 30px;
+  width: 80px;
+  border:2px solid Blue;
+  margin-left: 2px;
   margin-bottom: 10px;
   transition: 0.5s;
   text-align: center;
+  color: darkBlue;
 }
 
 .submitButton:hover {
-  background: lightblue;
+  background: lavender;
 
+}
+.night-sky {
+  border: 5px;
+  border-color: white;
+  border-style: solid;
+  width:370px;;
+  height:270px;
+}
+.graph {
+  border: 5px;
+  border-color: rgb(23, 51, 79);
 }
