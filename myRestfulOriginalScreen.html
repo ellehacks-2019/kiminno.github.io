@@ -13,14 +13,14 @@
   </div>
 
   <div class="topnav">
-    <a class="active" href="my_restful.html">Home</a>
+    <a class="active" href="https://kiminno.github.io/myRestful">Home</a>
     <a href="https://google.ca">About myRestful</a>
     <a href="#contact">Contact Information</a>
-    <a class="right"> Welcome, Judges</a>
     <div class="login-container">
       <form action="/action_page.php">
-
-        <a href="https://kiminno.github.io/myRestfulOriginalScreen">Logout</a>
+        <input type="text" placeholder="Username" name="username">
+        <input type="text" placeholder="Password" name="psw">
+        <a href="https://kiminno.github.io/myRestfulOriginalScreen">Login</a>
       </form>
     </div>
   </div>
@@ -36,16 +36,15 @@
 
       <div class="main">
         <h2 style="color:white;">Your Sleep History</h2>
-        <img class="graph" src="Sleep_History_(Week).png"></img>
-        <div class="syncButton">Sync</div>
-        <p style="color:white; margin-bottom:3px;">
-          Oh no! You only got two hours of sleep this Thursday! And you also overslept on the weekends. Repeating this kind of pattern could ruin your health!</p>
-        <p style="color:white;">Your current rest points are: <b>128 points</b>
-        </p>
+
+        <p style="color:white; bottom-margin: 8px;">To access this feature, please log in!</p>
+        <p style="color:white;">A chance to get a proper look at your
+        sleeping habits, as well as earning points without having to do anything
+      except sleep!</p>
       </div>
     </div>
 
-    <h2 style="margin-bottom: 10px;"> Symptons of Sleep Deprivation </h2>
+    <h2> Symptons of Sleep Deprivation </h2>
     <p>Check off those that apply to you.</p>
     <label><input type="checkbox" name="checkbox" value="value">Yawning</label>
     <br>
@@ -68,12 +67,14 @@
     <label><input type="checkbox" name="checkbox" value="value">Increased appetite and carbohydrate cravings</label>
     <br>
     <label><input type="checkbox" name="checkbox" value="value">Reduced sex drive</label>
+<div class="row">
 
-    <div class="submitButton">Submit</div>
     <div class="checkList"></div>
+  </div>
     <div class="graph"></div>
-    <div class="signUpButton"></div>
+    <div class="submitButton">Submit</div>
     <div class="logInButton"></div>
+
 
 
   </body>
